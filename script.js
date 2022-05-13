@@ -64,5 +64,5 @@ document.write(numero2); // imprime a pantalla el 12 (nuevo valor que reemplaza 
 var texto2 = "Hola como esta";
 document.write(texto2 * 2); // en este caso va a devolver un Nan por que estamos tratando de multiplicar un string con un int, es un mensaje de error
 
-
-
+var gitHub = "Git Hub"; 
+document.write(gitHub); 
