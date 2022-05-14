@@ -13,7 +13,7 @@ document.write( nombres  + " " + edad); //se usa para mostrar datos en pantalla,
 //==>
 // Numeric (int o float)
 var edad = 19; // numero entero, puede ser float tambien, en JS no hay que especificar cual de los dos es... se pueden agregar operaciones matematicas
-
+kasdfkkladfnadfaslfnaksfasf
 
 //==>
 // String - cadena de texto - se puede concatenar cadenas de texto
