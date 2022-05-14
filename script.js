@@ -44,6 +44,9 @@ document.write(objeto);
 var booleanT = true;
 var booleanF = false;
 
+var maximo = 200
+var minimo = 100
+
 //==>
 // undefined = Es aquel que no se ha definido
 var castro; // variable sin un valor definido
