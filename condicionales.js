@@ -72,4 +72,4 @@ if (edad == 20 && edadMinima >= 10){
     document.write("False")
 }
 
-// para comprobar que sea el mismo valor y del mismo tipo se una 3 iguales ===
+// para comprobar que sea el mismo valor y del mismo tipo se usa 3 iguales ===
