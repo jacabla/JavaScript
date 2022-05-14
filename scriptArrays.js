@@ -22,7 +22,7 @@ document.write(amigos[0]); // imprime Jason Alonso
 
 //==> para acceder a una propiedad se pone la var + .
 document.write(amigos.length); // lo que va a imprimir es cuantos elementos tiene el array
-// se puede concater texto mas var.length
+// se puede concatenar texto mas var.length
 document.write("Tienes " + amigos.length + "amigos"); // aca imprime "Tienes 3 amigos"
 
 //==> para agregar un nuevo elemento al array se hace la siguiente manera
@@ -33,9 +33,9 @@ document.write(amigos); // imprime Jason Alonso, Luis, Jose y Cali ( el nuevo el
 amigos.push("Marco");
 document.write(amigos); //imprime Jason Alonso, Luis, Jose, Cali y Marco ( el nuevo elemento)
 
-// tambien se pueden eliminar con el pop
-amigos.pop[2];
-document.write(amigos); //en este caso elimina de la lista a Jose, e imprime todos menos el eliminado
+// tambien se pueden eliminar con el .pop el ultimo elemento agregado en el array
+amigos.pop();
+document.write(amigos); //en este caso elimina de la lista a Marco, e imprime todos los elementos menos el ultimo pues este se elimino con el .pop
 
 // si tenemos dos arrays y queremos juntarlos?
 var amigosP = ["Julio", "Oscar", "Berny", "Virgil"]; // este es el segundo array
@@ -45,7 +45,7 @@ var amigosGeneral = amigos.concat(amigosP); // el primer array y el que se le qu
 document.write(amigosGeneral); // imprime todos los amigos, a partir de aqui pasa a ser una nueva variable con los dos array anteriores
 
 //==> el metodo join sirve para agregar elementos entre cada unos de los elementos del array
-amigosGeneral.join(" - "); // en este caso imprimiria Jason Alonso - Luis - Jose... y asi sucesivamente
+document.write(amigosGeneral.join(" - ")); // en este caso imprimiria Jason Alonso - Luis - Jose... y asi sucesivamente
 
 //==> con el .sort se pueden ordenar alfabeticamente
 amigosGeneral.sort();

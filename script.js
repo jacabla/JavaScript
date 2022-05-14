@@ -23,7 +23,7 @@ document.write(nombre + " " + apellido);
 document.write(texto);
 
 //==>
-// array (AKA vectores) - arreglo - un arreglo nos permite agregar muchas cosas
+// array (AKA vectores) - arreglo - un arreglo nos permite agregar muchas cosas en una variable.
 var amigos = ["Rigo", "Beto", "Fabis", "Pipe"]; // se puede acceder a cualquiera de los arreglos con ciclos
 document.write(amigos[2]); //asi se accede al nombre de Fabis, los arrays empieza en el numero 0
 // tambien se pueden agregar numeros o incluso booleanos en los arrays

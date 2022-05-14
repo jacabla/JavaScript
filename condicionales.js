@@ -35,7 +35,7 @@ if (usuario == "Jason"){
     if (password == 19){
     alert("Bienvenido " + usuario + " logeado correctamente");
     }else{
-        alert("Contasenna no valida")
+        alert("Contrasenna no valida")
     }
 
 
