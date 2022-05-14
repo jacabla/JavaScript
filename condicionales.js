@@ -41,22 +41,22 @@ if (usuario == "Jason"){
 
 //ejemplo con condicines else if
 
-var carros = ["Totoya", "Nissan", "Suzuki"]
-var carroElecto = prompt("Ingrese el carro electo")
+var carros = ["Totoya", "Nissan", "Suzuki"];
+var carroElecto = prompt("Ingrese el carro electo");
 
 if (carroElecto == carros[1]){
-    alert("Felicidades, eres el ganador de un carro modelo " + carros[1])
+    alert("Felicidades, eres el ganador de un carro modelo " + carros[1]);
 }else if(carroElecto == carros[0]){ // se ingresa una segunda condcional que se ejecuta si la primera condicion no se ejecuta
-    alert("Felicidades, ganaste un auto marca " + carros[0])
+    alert("Felicidades, ganaste un auto marca " + carros[0]);
 }else{
-    alert("Lo siento, pero no resultaste ganador")
+    alert("Lo siento, pero no resultaste ganador");
 } // si el la primera condicion del if no se ejecuta entra en la segunda else if y si tampoco se cumple entonces entra en el else.
 
 
 // tambien se pueden hacer condicionales con operadores matematicos...
 
-var edad = 20
-var edadMinima = 10
+var edad = 20;
+var edadMinima = 10;
 
 if (edad => 20){
     document.write("El mumero es " + edad)
