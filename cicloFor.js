@@ -2,7 +2,7 @@
 
 // ejemplo, para imprimir los numeros hasta el 100
 
-var dias = ["Lunes", " Martes", " Miercoles", " Jueves", " Viernes", " Sabado", " Domingo"]
+var dias = ["Lunes", " Martes", " Miercoles", " Jueves", " Viernes", " Sabado", " Domingo"];
 
 for ( var tablaNumero = 0; tablaNumero <= dias.length - 1; tablaNumero ++){  //son 3 campos, en el primero se declara la variable, en el segundo hasta cuando se va a ejecutar el ciclo
     document.write("- " + dias[tablaNumero] + "<br>");    // aqui van las instruciones
