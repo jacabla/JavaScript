@@ -1,0 +1,59 @@
+body{
+    background-image: url(/Imagen\ JPEG-59F2FB411904-1.jpeg);
+    background-size: cover;
+    color: white;
+    font-weight: 200;
+    font-family: 'Macondo', cursive; 
+    font-size: 50px;
+    text-align: center;
+    text-shadow: -12px 3px 1px rgb(117, 103, 93);
+}
+
+header{
+    padding-top: 1.5em;
+}
+
+.form-control{
+    color: rgb(0, 0, 0);
+    font-family: 'Macondo', cursive;
+    width: 200px;
+    height: 20px;
+    box-shadow: -45px 26px 28px 7px rgba(0,0,0,0.8);
+    -webkit-box-shadow: -45px 26px 28px 7px rgba(0,0,0,0.8);
+    -moz-box-shadow: -45px 26px 28px 7px rgba(0,0,0,0.8);
+    border-radius: 10px;
+    padding-top: 1em;
+    text-align: inherit;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.btnbtn-outline-dark:hover{
+    color: white;
+    background-color: transparent 50%;
+    transition: 1s;
+    box-shadow: rgb(23, 21, 21) 0px 10px 12px;
+    border-color: 10px white;
+    border-radius: 10px;
+    width: 203px;
+    font-size: 52px;
+}
+
+.btnbtn-outline-dark{
+    color: white;
+    background-color: transparent;
+    margin: 2em;
+    width: 200px;
+    height: auto;
+    font-family: 'Macondo', cursive;
+    font-size: 50px;
+    border-radius: 10px;
+    border-color: 10px rgb(126, 25, 25);
+}
+
+div{
+    margin-top: 1em;
+}
