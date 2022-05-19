@@ -47,3 +47,7 @@ var contenidoP4 = document.createTextNode("Sigue asi y lo alcanzaras Jason");
 parrafo4.appendChild(contenidoP4);
 parrafo4.setAttribute("aligne","center");
 document.getElementById("parrafo2").appendChild(parrafo4);
+
+
+
+

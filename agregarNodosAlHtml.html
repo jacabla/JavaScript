@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<ul id="lista">
+    <li>Primero</li>
+    <li>Segundo</li>
+</ul>
+
+<script>
+    var tercero = document.createElement("li");     // en este caso lo que quiere es agregar un elemento nuevo a la lista
+    var contenido = document.createTextNode("Tercero"); // sea agrega el texto
+    tercero.appendChild(contenido);
+
+    //se debe elegir el padre del elemento en donde se va a crear el nuevo item
+    var lista = document.getElementById("lista") // se crea otra variable para elegir en donde va a ir el elemento recien creado
+    lista.appendChild(tercero); // se agrega a la lista, en este caso de ultimo lugar.
+
+
+// tambien se puede hacer para que el elemento creado se inserte en el primer lugar.
+
+    var cero = document.createElement("li");
+    var contenido1 = document.createTextNode("Cero");
+    cero.appendChild(contenido1);
+
+    var lista2 = document.getElementsByTagName("li")[0].parentNode;
+    var primeroEnLaLista = document.getElementsByTagName("li)")[0];
+    lista2.insertBefore(cero,primeroEnLaLista); //falta propbar este para que quede primero en la lista... investigar mas...
+</script>
+</body>
+</html>
